@@ -15,5 +15,9 @@ public class Capitale extends Ville {
 		monument=monu;
 	}
 
-        
+       void description() {
+		super.description();
+		System.out.println("et est aussi la capitale avec "+this.getmonument()+" comme monument");
+		System.out.println("");
+	} 
 }
