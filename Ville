@@ -22,4 +22,9 @@ public class Ville {
 	int gethbt() {
 		return hbt;
 	}
+
+        void description() {
+		System.out.println("la ville de "+this.getnom()+" a "+this.gethbt()+" habitants");
+		//System.out.println("");
+	}
 }
