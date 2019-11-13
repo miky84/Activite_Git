@@ -8,4 +8,18 @@ public class Ville {
 		nom=nome;
 		hbt=habt;
 	}
+
+        void Setnom(String nome) {
+		nom=nome;
+	}
+	void Sethbt(int habt) {
+		hbt=habt;
+	}
+	
+	String getnom() {
+		return nom;
+	}
+	int gethbt() {
+		return hbt;
+	}
 }
