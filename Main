@@ -1,0 +1,14 @@
+package projetgit;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Ville ville1=new Ville("Etagniere", 1000);
+		Capitale cap=new Capitale("douala", 2000000, "le monument de la salete");
+		
+		ville1.description();
+		cap.description();
+
+	}
+
+}
