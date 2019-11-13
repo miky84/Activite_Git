@@ -7,4 +7,13 @@ public class Capitale extends Ville {
 		super(nome, habt);
 		monument=monu;
 	}
+
+        String getmonument() {
+		return monument;
+	}
+	void setmonument(String monu) {
+		monument=monu;
+	}
+
+        
 }
